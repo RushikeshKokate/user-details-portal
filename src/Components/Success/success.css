@@ -1,0 +1,10 @@
+.success{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green;
+    padding: 10px;
+    text-align: center;
+}
