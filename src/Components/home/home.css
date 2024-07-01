@@ -1,0 +1,14 @@
+.main_div{
+display: flex;
+flex-direction: column;
+padding: 20px;
+line-height: 25px;
+align-items: center;
+justify-content: center;
+}
+
+h2{
+    height: 50px;
+    text-align: center;
+}
+
