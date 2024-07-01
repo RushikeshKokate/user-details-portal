@@ -4,6 +4,10 @@ body {
   margin: 0;
   padding: 0;
 }
+.main_div{
+  display: flex;
+  align-items: center;
+}
 
 .heading {
   text-align: center;

@@ -15,7 +15,6 @@ const UserForm = () => {
     gender: '',
     interests: [],
     country: '',
-    profilePic: null,
   });
   const [formErrors, setFormErrors] = useState({});
   const [isDirty, setIsDirty] = useState(false);
@@ -93,7 +92,6 @@ const UserForm = () => {
           gender: '',
           interests: [],
           country: '',
-          profilePic: null,
         });
         dispatch(saveFormData(formData));
         navigate('/Success');
@@ -107,7 +105,7 @@ const UserForm = () => {
   };
 
   return (
-    <div>
+    <div className='main_div'>
       <h1 className='heading'>User Form</h1>
       <form onSubmit={handleSubmit} className='form'>
         <div>
@@ -168,10 +166,6 @@ const UserForm = () => {
             <option value="United Kingdom">United Kingdom</option>
           </select>
           {formErrors.country && <span className="error">{formErrors.country}</span>}
-        </div>
-        <div>
-          <label htmlFor="profilePic">Profile Picture:</label>
-          <input type="file" name="profilePic" onChange={handleFileChange} />
         </div>
         <button type="submit">Submit</button>
       </form>
