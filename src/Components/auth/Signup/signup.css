@@ -1,0 +1,22 @@
+.main{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   .signup{
+    line-height: 30px;
+    border: 2px solid rgb(212, 211, 211) ;
+    border-radius: 10px;
+    padding: 10px;
+   }
+   
+   button{
+       margin-top: 10px;
+   }
+   
+   h1{
+       text-align: center;
+   }
